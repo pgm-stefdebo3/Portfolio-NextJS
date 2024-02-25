@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@react-three/drei": "^9.99.4",
+    "bootstrap": "^5.3.3",
+    "next": "latest",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^5.0.1",
+    "react-responsive-carousel": "^3.2.23",
+    "react-three-fiber": "^6.0.13",
+    "reactstrap": "^9.2.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
