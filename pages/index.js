@@ -16,9 +16,10 @@ export default function Home() {
       <div className="main" style={{ background: '#0E0E0E' }}>
         <div className="main__intro container-md">
           <div className="intro--left">
-            <div className="card--1">
+            <div className="card-container card--1">
               <Card
                 toastHeader="User"
+                style={{ paddingLeft: '0'}}
                 toastBody={
                   <>
                     <p>firstName: <span className="text--important">"Stef",</span></p>
@@ -29,9 +30,11 @@ export default function Home() {
                 }
               />
             </div>
-            <div className="card--2 offset-md-2">
+            <div className="card-container card--2 offset-md-2">
               <Card
                 toastHeader="UserMeta"
+                fadeIn={true}
+                fadeInDelay={0.5}
                 toastBody={
                   <>
                     <p>occupation: <span className="text--important">"Back-End Developer",</span></p>
@@ -42,7 +45,7 @@ export default function Home() {
             </div>
           </div>
           <div className="intro--right desktop-only">
-            <Canvas>
+            <Canvas style={{width: '500px'}}>
               <Sphere />
             </Canvas>
           </div>

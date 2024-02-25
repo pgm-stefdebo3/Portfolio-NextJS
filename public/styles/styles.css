@@ -60,6 +60,10 @@
     overflow-wrap: normal;
   }
   
+  .card-container {
+    max-width: 80vw;
+  }
+
   .card--2 {
     margin-top: -5rem;
   }
@@ -81,6 +85,7 @@
     height: 650px;
     max-width: 1320px;
     margin: 0 auto;
+    margin-left: 1rem;
   }
   
   .intro--left {
