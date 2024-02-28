@@ -61,6 +61,14 @@
   }
   
   .card-container {
+    max-width: 60vw;
+  }
+
+  .toast-header {
+    max-width: 80vw;
+  }
+
+  .toast-body {
     max-width: 80vw;
   }
 

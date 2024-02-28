@@ -45,7 +45,7 @@ export default function Home() {
             </div>
           </div>
           <div className="intro--right desktop-only">
-            <Canvas style={{width: '500px'}}>
+            <Canvas style={{width: '500px', maxWidth: '44vw'}}>
               <Sphere />
             </Canvas>
           </div>

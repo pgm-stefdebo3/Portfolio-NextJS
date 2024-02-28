@@ -1,7 +1,6 @@
 import Carousel from './Carousel';
 
 const Project = ({project}) => {
-    console.log(project);
 
     if (project.type === 'single') {
         return (

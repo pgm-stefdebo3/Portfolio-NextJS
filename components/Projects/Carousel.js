@@ -3,7 +3,6 @@ import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 const CarouselComponent = ({ project }) => {
-    console.log(project);
   return (
     <Carousel>
       {project.src.map((image, index) => (
