@@ -27,7 +27,7 @@ export default class NavBar extends React.Component {
     return (
       <div>
         <Navbar color="dark" dark expand="md" fixed='top' container='md'>
-          <NavbarBrand href="#top">De Boeck Stef</NavbarBrand>
+          <NavbarBrand href="/">De Boeck Stef</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>

@@ -20,9 +20,9 @@ const ContactForm = () => {
     <div className="contact-form__container">
       <h2>Reach out!</h2>
       <div className="contact__form">
-        {contactList.map((contact) => {
+        {contactList.map((contact, index) => {
           return (
-            <div className='contact__container'>
+            <div className='contact__container' key={'contact' + index}>
               <h4>{contact.title}</h4>
               <a href={contact.link}>
                 <div className="contact__content">

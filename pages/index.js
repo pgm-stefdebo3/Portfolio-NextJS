@@ -10,6 +10,9 @@ export default function Home() {
 
   return (
     <div>
+      <Head>
+        <title>De Boeck Stef - Home</title>
+      </Head>
       <header>
         <NavBar pageName="Home" />
       </header>

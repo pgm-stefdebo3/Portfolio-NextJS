@@ -16,16 +16,22 @@ const Socials = () => {
   }]
 
   return (
-    <div className="socials">
-      <h2>Follow me on</h2>
-      {socialList.map((social) => {
-        return (
-          <a href={social.link} target="_blank" rel="noreferrer">
-            {social.icon}
-          </a>
-        )
-      })}
-    </div>
+    <>
+      <div className="socials">
+        <h2>Follow me on</h2>
+        {socialList.map((social, index) => {
+          return (
+            <a href={social.link} target="_blank" key={`social ${index}`} rel="noreferrer">
+              {social.icon}
+            </a>
+          )
+        })}
+      </div>
+      <div className="CV">
+        <h2><a href="\assets\DeBoeckStef_CV.pdf" download>Download</a> my CV</h2>
+        
+      </div>
+    </>
   );
 }
 
