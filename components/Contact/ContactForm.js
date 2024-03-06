@@ -18,7 +18,7 @@ const ContactForm = () => {
 
   return (
     <div className="contact-form__container">
-      <h2>Reach out!</h2>
+      <h2 className='desktop-only'>Reach out!</h2>
       <div className="contact__form">
         {contactList.map((contact, index) => {
           return (

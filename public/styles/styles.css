@@ -182,7 +182,7 @@
   }
   
   .contact-container {
-    margin-left: 3rem;
+    margin-left: 1.5rem;
     padding-bottom: 4rem;
   }
   
@@ -340,6 +340,8 @@
     flex-wrap: wrap;
     gap: 2rem;
     margin-top: 2rem;
+    padding-left: 0;
+    justify-content: center;
   }
   
   .Skill__container {
@@ -411,10 +413,6 @@
   @media (max-width: 475px) {
     
     
-  
-  .skill__list {
-    gap: 8vw;
-  }
   .Skill__container {
     height: 35vw;
     width: 35vw;
