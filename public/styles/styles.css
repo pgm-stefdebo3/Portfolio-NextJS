@@ -312,6 +312,7 @@
   
   .header__content h3 {
     margin-right: auto;
+    margin-bottom: 0;
   }
   
   .navbar .container-md {
