@@ -1,16 +1,16 @@
-import { FaLinkedin, FaGithubSquare, FaInstagramSquare } from 'react-icons/fa'
+import { FaLinkedinIn , FaGithub, FaInstagram } from 'react-icons/fa'
 
 const Socials = () => {
   const socialList = [{
-    icon: <FaLinkedin/>,
+    icon: <FaLinkedinIn/>,
     alt: "Linkedin Icon",
     link: "https://www.linkedin.com/in/stef-de-boeck-22a802221/"
   },{
-    icon: <FaGithubSquare/>,
+    icon: <FaGithub/>,
     alt: "Github Icon",
     link: "https://github.com/pgm-stefdebo3"
   },{
-    icon: <FaInstagramSquare/>,
+    icon: <FaInstagram/>,
     alt: "Instagram Icon",
     link: "https://www.instagram.com/stef_dbk/"
   }]
@@ -28,7 +28,7 @@ const Socials = () => {
         })}
       </div>
       <div className="CV">
-        <h2><a href="\assets\DeBoeckStef_CV.pdf" download>Download</a> my CV</h2>
+        <h4><a href="\assets\DeBoeckStef_CV.pdf" download>Download</a> my CV</h4>
         
       </div>
     </>

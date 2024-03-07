@@ -193,6 +193,10 @@
   .contact__flex {
     display: flex;
   }
+
+  .contact--left {
+    margin-bottom: 3rem;
+  }
   
   .socials {
     margin-bottom: 3rem;
@@ -265,6 +269,8 @@
     }
     .desktop-only {
       display: none;
+      margin: 0;
+      padding: 0;
     }
   }
   
@@ -374,6 +380,10 @@
     color: rgb(255, 255, 255);
   }
   
+  .CV h4 {
+    color: rgb(255, 255, 255);
+  }
+  
   .contact__container a {
     text-decoration: none;
     color: rgb(255, 255, 255);
@@ -383,13 +393,9 @@
     color: #34FEE3;
   }
   
-  .contact__container {
-    margin-top: 2rem;
-  }
   
   .contact__content {
     display: flex;
-    padding: 1rem;
     gap: 1rem;
     align-items: center;
   }
